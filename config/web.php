@@ -78,9 +78,9 @@ $config = [
     'as access' => [
         'class' => yii2mod\rbac\filters\AccessControl::class,
         'allowActions' => [
-            'site/*',
-            'admin/*',
-            'rbac/*',
+           // 'site/*',
+           // 'admin/*',
+           // 'rbac/*',
         ]
     ],
     'params' => $params,

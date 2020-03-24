@@ -62,6 +62,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $user = \Yii::$app->authManager->getRoles();
         return $this->render('index');
     }
 

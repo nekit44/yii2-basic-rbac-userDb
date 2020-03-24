@@ -13,6 +13,11 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
         '@tests' => '@app/tests',
     ],
+    'modules' => [
+        'rbac' => [
+            'class' => 'yii2mod\rbac\ConsoleModule'
+        ]
+    ],
     'components' => [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',

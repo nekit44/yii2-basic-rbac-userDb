@@ -17,7 +17,7 @@ dmstr\web\AdminLteAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="login-page">
+<body class="login-page" <!--style="background-image: url(/image/mercedes-maybach_s_600_32-scaled.jpeg);-->">
 
 <?php $this->beginBody() ?>
 
